@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEU PRIMEIRO FORMULARIO</title>
+</head>
+<body>
+
+		<fieldset> 
+	<legend>DADOS PESSOAIS</legend>
+<label for="nome">NOME:</label><br>
+<input type="nome"name="nome"id="nome" required placeholder="Digite seu nome">
+<br>
+<br>
+<label for="nome">E-MAIL:</label><br>
+<input type="text"name="email"id="email" required placeholder="EX:Augusto@gmail.com">
+<br>
+<label for="nasc">DATA DE NASCIMENTO:</label><br>
+<input type="date"name="nasc" id="nasc"min="1900-01-0"max="2002-12-31">
+</fieldset><br>
+
+		<fieldset>
+	<legend>DADOS DO ENDEREÇO</legend><br>
+<label for="endereco">ENDEREÇO:</label><br>
+<input type="endereco"name="endereco"id="endereco"required placeholder="Digite seu endereço"><br>
+<label for="numero">NÚMERO:</label><br>
+<input type="numero"name="numero"id="numero" required placeholder="Digite seu número" =""><br>
+<label for="cep"">CEP:</label><br>
+<input type="cep"="name="cep"id="cep"required placeholder="00000-000"><br>
+<label for="bairro">BAIRRO:</label><br>
+<input type="bairro"name="bairro"id="bairro" required placeholder="Digite seu bairro" =""><br>
+<label for="cidade">CIDADES:</label><br>	
+
+
+	<select>	
+<option>itanháem</option><br>
+<option>mongagua</option>
+<option>são vicente</option>
+<option>praia grande</option>
+<option>peruíbe</option>
+<option>guarulhos</option>
+<br>
+	</select><br>
+		</fieldset>
+<br>
+<br>
+	<fieldset>
+	<legend>SERIES FAVORITAS</legend ><br>
+<input type="checkbox" name="interesse[]"value="The walking dead">The waking dead<br>
+<input type="checkbox" name="interesse[]"value="La casa de papel">La casa de papel<br>
+<input type="checkbox" name="interesse[]"value="The 100">The 100<br>
+<input type="checkbox" name="interesse[]"value="Game of thrones">Game of throne
+<input type="checkbox" name="interesse[]"value="El barco">El barco<br>
+<input type="checkbox" name="interesse[]"value="The king">The king<br>
+<input type="checkbox" name="interesse[]"value="Underthedome">Underthedome<br>
+
+
+
+
+<button>CADASTRAR</button>
+	</fieldset>
+<style>
+	body{
+		background-color:;
+		font-family: "bodoni mt"
+	}
+
+	fieldset{
+		background-color:pink;
+		width:100%;
+    }
+    
+	input,select{
+		margin-bottom:50px;
+
+	}
+	label{
+		color:black;
+		font-size: 17pt;
+		
+	}
+
+	legend{
+		font-size:20pt;
+		color:black;
+</style>
+</html>
+</body>
